@@ -3,7 +3,8 @@ import os
 import requests
 from webex_bot.models.command import Command
 
-api_token = "VcK3FDW.xsxTWjv/zJukJa6jT9xeTBoxYXSRiFBS31p2ZMdYPe2puGMyByirmLYD4J6bbgMggSrwx4jO+RVLoruGL70Qr/kjsu5ynNbYJdnjZZp7C+UqtA8NaAhS85MS0rg1XfQci2vhYIk3sAUdJsIvszvA1qR7KR9CTjJiASGXu48HvwrvNhxH+/sLgp7H"
+# fill api token
+# api_token = ""
 
 bot = WebexBot(os.getenv("WEBEX_TEAMS_ACCESS_TOKEN"), approved_domains=["cisco.com"])
 

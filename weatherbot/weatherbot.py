@@ -3,9 +3,6 @@ import os
 import requests
 from webex_bot.models.command import Command
 
-# fill api token
-# api_token = ""
-
 bot = WebexBot(os.getenv("WEBEX_TEAMS_ACCESS_TOKEN"), approved_domains=["cisco.com"])
 
 
